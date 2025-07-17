@@ -1,4 +1,4 @@
-# AI Agent Project
+# AI MCP Demo
 
 ## Overview
 
