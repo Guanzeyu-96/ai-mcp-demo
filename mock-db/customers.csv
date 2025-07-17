@@ -1,6 +1,6 @@
-customer_id,customer_name
-501,DD
-502,Yaxin
-503,Rongjian
-504,Zeyan
-505,XingGuo
+customer_id,customer_name,phone_number
+501,DD,13800000001
+502,Yaxin,13800000002
+503,Rongjian,13800000003
+504,Zeyan,13800000004
+505,XingGuo,13800000005

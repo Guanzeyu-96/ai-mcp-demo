@@ -42,9 +42,11 @@ Open settings and edit `claude_desktop_config.json` as:
     }
   }
 }
+```
 
 ## Extra tasking
 
 我想在claude desktop中实现直接询问mock db中的内容。比如：
 - 帮我查看Alice Zhang买了什么东西；
-- 帮我查查所有买了USB-C Charger的用户的电话号码。
+- 帮我查查所有买了USB-C Charger的用户。
+- PS5出问题了，给所有买了PS5的用户打电话。
