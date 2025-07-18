@@ -6,12 +6,6 @@ MCP demo 项目，建议使用 claude desktop 作为 Agent。
 
 ## Installation
 
-This Project is managed by uv, a Python package manager. To install the project dependencies, run:
-
-```bash
-uv install
-```
-
 Init project with:
 
 ```bash
