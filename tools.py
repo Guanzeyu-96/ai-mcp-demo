@@ -5,6 +5,7 @@ import json
 import os
 import csv
 
+
 def get_host_info() -> str:
     """get host information
     Returns:
@@ -23,7 +24,7 @@ def get_host_info() -> str:
         info["cpu_count"] = "-1"
     else:
         info["cpu_count"] = str(cpu_count)
-    
+
     try:
         cpu_model = subprocess.check_output(
             ["sysctl", "-n", "machdep.cpu.brand_string"]
@@ -33,3 +34,7 @@ def get_host_info() -> str:
         info["cpu_model"] = "Unknown"
 
     return json.dumps(info, indent=4)
+
+
+if __name__ == "__main__":
+    print(get_host_info())
